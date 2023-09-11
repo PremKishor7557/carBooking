@@ -44,7 +44,7 @@ function DefaultLayout(props) {
           <Row gutter={16} justify='center'>
               <Col lg={20} sm={24} xs={24}>
               <div className="d-flex justify-content-between">
-             <h1 ><b><Link to='/' style={{color:'orangered'}}>RohitCars</Link></b></h1>
+             <h1 ><b><Link to='/' style={{color:'orangered'}}>PremCars</Link></b></h1>
 
           <Dropdown overlay={menu} placement="bottomCenter">
             <Button>{user.username}</Button>
@@ -63,7 +63,7 @@ function DefaultLayout(props) {
 
            
 
-           <p>Rohit</p>
+           <p>Prem</p>
           
       </div>
     </div>
